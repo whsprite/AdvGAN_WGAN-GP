@@ -1,11 +1,21 @@
 # AdvGAN_WGAN-GP
 ### Unoffical implmentation of "Using Wasserstein GAN to Generate Adversarial Examples".
 ### Usage
-> ### 1. Edit *main.py* to load your target model for attack.
-
-> ### 2. Run the code
-```python
+> ### 1.
+```
+Edit *main.py* to load your target model for attack.
+```
+> ### 2. 
+```
    python main.py
+```
+> ### 3.
+```
+Edit *test_WGAN_examples.py* to load your target model and AdvGAN.
+```
+> ### 4. 
+```
+   python test_WGAN_examples.py
 ```
 ### Generated Adversarial Examples On MNIST(Acc: 4.15%)
 ---
